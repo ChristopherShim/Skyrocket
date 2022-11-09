@@ -1,0 +1,629 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Tue Nov 08 2022 22:14:40 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6363ff8d6192217a3fc701c2" data-wf-site="6363ff8d6192212b7ac701c1">
+<head>
+  <meta charset="utf-8">
+  <title>Get better QA results - QAFoundry</title>
+  <meta content="We&#x27;re here to help you QA Test your software so you can deliver the best product." name="description">
+  <meta content="Get better QA results - QAFoundry" property="og:title">
+  <meta content="We&#x27;re here to help you QA Test your software so you can deliver the best product." property="og:description">
+  <meta content="https://uploads-ssl.webflow.com/6363ff8d6192212b7ac701c1/63669c58c4e75f7836fc764a_Main-Logo.svg" property="og:image">
+  <meta content="Get better QA results - QAFoundry" property="twitter:title">
+  <meta content="We&#x27;re here to help you QA Test your software so you can deliver the best product." property="twitter:description">
+  <meta content="https://uploads-ssl.webflow.com/6363ff8d6192212b7ac701c1/63669c58c4e75f7836fc764a_Main-Logo.svg" property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/relume-26c471-e3013507bf1c6c34f24297de0.webflow.css" rel="stylesheet" type="text/css">
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="https://qafoundry.com//" rel="canonical"><!--  Please keep this css code to improve the font quality -->
+  <style>
+  * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+</style>
+  <!--  You can remove this  -->
+  <meta name="facebook-domain-verification" content="mlk59ybu44651lzcbhhxjfl8vfae8q">
+</head>
+<body class="body">
+  <div class="page-wrapper">
+    <div class="global-styles w-embed">
+      <style>
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+/* Snippet enables you to add class of div-square which creates and maintains a 1:1 dimension of a div.*/
+.div-square::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+/*Hide focus outline for main content element*/
+    main:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+/* Make sure containers never lose their center alignment*/
+.container-medium, .container-small, .container-large {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+/*Reset selects, buttons, and links styles*/
+.w-input, .w-select, a {
+color: inherit;
+text-decoration: inherit;
+font-size: inherit;
+}
+/*Apply "..." after 3 lines of text */
+.text-style-3lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/* Apply "..." at 100% width */
+.truncate-width { 
+		width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* Removes native scrollbar */
+.no-scrollbar {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none; // Safari and Chrome
+}
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+@media screen and (max-width: 991px), 
+  @media screen and (max-width: 767px), 
+  @media screen and (max-width: 479px){
+    .hide, .hide-tablet{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 767px)
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 479px)
+    .hide-mobile{
+      display: none !important;
+    }
+  }
+.margin-0 {
+  margin: 0rem !important;
+}
+.padding-0 {
+  padding: 0rem !important;
+}
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+</style>
+    </div>
+    <main class="main-wrapper">
+      <div data-animation="default" class="navbar w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="87f666a7-aacc-9434-c0e5-0f4298d701a1" role="banner" data-duration="400">
+        <nav class="navbar2_container container-large">
+          <a href="#" class="navbar2_logo-link w-nav-brand"><img src="images/Main-Logo_1.svg" loading="lazy" width="215" height="48" alt="QA Foundry Logo in Dark Blue" class="navbar2_logo"><img src="images/QA-Q-Purp.svg" loading="lazy" width="42" height="48" alt="" class="navbar_logo_mini"></a>
+          <nav role="navigation" id="w-node-_87f666a7-aacc-9434-c0e5-0f4298d701a5-98d701a1" class="navbar2_menu is-page-height-tablet text-weight-bold w-nav-menu">
+            <a href="#" class="navbar2_link w-nav-link">Home</a>
+            <a href="#" class="navbar2_link w-nav-link">Services</a>
+            <a href="#" class="navbar2_link w-nav-link">Case Study</a>
+            <a href="#" class="navbar2_link w-nav-link">Contact Us</a>
+          </nav>
+          <div id="w-node-_87f666a7-aacc-9434-c0e5-0f4298d701b0-98d701a1" class="navbar2_button-wrapper">
+            <a href="#" class="button-rounded-ltpurple w-button">Schedule a Demo</a>
+            <div class="navbar2_menu-button w-nav-button">
+              <div class="menu-icon2">
+                <div class="menu-icon2_line-top"></div>
+                <div class="menu-icon2_line-middle">
+                  <div class="menu-icon_line-middle-inner"></div>
+                </div>
+                <div class="menu-icon2_line-bottom"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <section class="section_header background-color-gray2">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="w-layout-grid layout1_component">
+              <div class="layout1_content">
+                <div class="margin-bottom margin-small">
+                  <h1 class="text-size-4-5rem heading-style-h1">Skyrocket<br>Your App Into a<br>Successful Launch</h1><img src="images/underline1.svg" loading="lazy" width="668" height="13" alt="A SVG Icon of underline for the header" class="header_underline1">
+                </div>
+                <p class="text-size-regular _50ch">If you&#x27;re tired of QA testing that costs you a lot and slows you down, you&#x27;ve found the best solution in town. We provide Automated QA-as-a service (QaaS) for your team to focus on developing, while we worry about the testing.</p>
+                <div class="margin-top margin-medium">
+                  <div class="button-group">
+                    <a href="#" class="button-rounded-dkblue w-button">Schedule a Demo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="layout1_image-wrapper"><img src="images/astronaut.svg" loading="lazy" width="637" height="891" alt="Astronaut SVG used as a Main Image" class="header_image"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_logos">
+        <div class="padding-global background-color-dkpurple">
+          <div class="padding-section-xsmall">
+            <div class="container-large">
+              <div class="logo1_component"><img src="images/reserve.svg" loading="lazy" id="w-node-b77623b9-b5d6-c1fd-6721-ce5aa99cb90a-3fc701c2" alt="A Logo of a company named Reserve" class="logo1_logo"><img src="images/quadency.svg" loading="lazy" id="w-node-b77623b9-b5d6-c1fd-6721-ce5aa99cb90b-3fc701c2" alt="A logo of a company called Quadency" class="logo1_logo"><img src="images/marvel.svg" loading="lazy" id="w-node-b77623b9-b5d6-c1fd-6721-ce5aa99cb90c-3fc701c2" alt="A logo of a company called Marvel" class="logo1_logo"><img src="images/disney.svg" loading="lazy" id="w-node-b77623b9-b5d6-c1fd-6721-ce5aa99cb90d-3fc701c2" alt="A logo of a company called Disney" class="logo1_logo"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_info1">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-small">
+              <div class="container-large">
+                <div class="text-align-center">
+                  <div class="padding-section-small">
+                    <div class="margin-bottom margin-large">
+                      <h2 class="heading-style-h2 text-size-3-5rem">You&#x27;ll never Look at<br>QA the Same Way</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-layout-grid layout3_component">
+                <div id="w-node-_70a023a8-4b14-9c0e-445d-ae6dc00c655b-3fc701c2" class="layout3_content">
+                  <div class="margin-bottom margin-small"><img src="images/Star.svg" loading="lazy" width="53" height="53" alt="svg icon of a star" class="image"></div>
+                  <div class="margin-bottom margin-small">
+                    <p class="text-size-regular">QA is sometimes seen as a bottleneck between the development of an app and its actual launch. When your team <span class="text-weight-semibold">focuses on speed</span>, the testing phase can be seen as slowing down the process.<br><br>An in-house testing team can be expensive to maintain. Hiring an automated QA-as-a-service (Qaas) team for your app can make things a lot easier and cheaper for you in the long term.<br><br>With a QaaS team, you&#x27;ll find yourself with the best talents on-demand, fully dedicated to your project</p>
+                  </div>
+                </div>
+                <div id="w-node-_70a023a8-4b14-9c0e-445d-ae6dc00c6561-3fc701c2" class="layout3_image-wrapper"><img src="images/Phone1.svg" loading="lazy" width="539" height="430" alt="Client&#x27;s communicating with the QA Foundry Devs, explaining the issues they are experiencing " class="image"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_info2">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-small">
+              <div class="w-layout-grid layout3_component">
+                <div class="layout3_image-wrapper grid"><img src="images/grid-services.svg" loading="lazy" width="533" height="292" id="w-node-_2f3dfb00-408d-1286-f9ab-7e97f04efd6c-3fc701c2" alt="SVG Icons of 4 Different services QA Foundry specializes in.
+Mobile Start ups, E-Commerce Websites, SaaS startups and distributed teams." class="image"></div>
+                <div id="w-node-_2f3dfb00-408d-1286-f9ab-7e97f04efd65-3fc701c2" class="layout3_content">
+                  <div class="margin-bottom margin-small"><img src="images/Star_1.svg" loading="lazy" width="53" height="53" alt="A SVG Icon of a star" class="image"></div>
+                  <div class="margin-bottom margin-small">
+                    <p class="text-size-regular">This also lessens the burden on your development team. With QA Foundry focusing on testing they can dedicate all their time to developing the best possible product.<br><br>Our best clients are <span class="text-weight-semibold">mobile, web, and SaaS startups, teams</span> with little to no automation coverage, and world-class companies that want a QA team that fully adapts to their work routine, thinking and working in the same way they do.<br><br>If you fit any of those categories, QA Foundry is here to take your development workflow to a whole new level.</p>
+                  </div>
+                  <div class="margin-top margin-medium">
+                    <div class="button-group">
+                      <a href="#" class="button-rounded-dkblue w-button">Schedule a Demo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="section_testimonial17">
+          <div class="padding-global">
+            <div class="container-large">
+              <div class="padding-section-medium">
+                <div class="testimonial17_component">
+                  <div class="testimonial17_content">
+                    <div class="testimonial17_client">
+                      <div class="testimonial17_client-info">
+                        <p class="text-weight-semibold">Sharmin Kazi</p>
+                        <p class="text-weight-semibold text-size-small">QA Analyst, Marvel</p>
+                      </div>
+                    </div>
+                    <div class="margin-top margin-small">
+                      <div class="text-size-regular">“QA Foundry reduced the time we spend manually regression by 80%, and the team feels more confident to ship new functionalities to our users.”</div>
+                    </div>
+                  </div>
+                  <div class="testimonial17_content">
+                    <div class="testimonial17_client-info">
+                      <p class="text-weight-semibold">Cody Chang</p>
+                      <p class="text-weight-semibold text-size-small">Head of Product, Quadency</p>
+                    </div>
+                    <div class="margin-top margin-small">
+                      <div class="text-size-regular">“The team at QA Foundry was instrumental to our successful launch and we are so fortunate to work with them.”</div>
+                    </div>
+                  </div>
+                  <div class="testimonial17_content">
+                    <div class="testimonial17_client-info">
+                      <p class="text-weight-semibold">Jaya Madula</p>
+                      <p class="text-weight-semibold text-size-small">Engineering Manager, Verizon</p>
+                    </div>
+                    <div class="margin-top margin-small">
+                      <div class="text-size-regular">“Detail oriented and delivers great quality within deadlines.”</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="section_steps">
+        <div class="padding-global background-color-custom">
+          <div class="padding-section-large">
+            <div class="container-large position-relative">
+              <div class="text-align-center">
+                <div class="margin-bottom margin-small">
+                  <h2 class="heading-style-h2 text-size-3-5rem">How We Work</h2>
+                </div>
+              </div>
+              <div class="margin-bottom positio-relative">
+                <div class="padding-section-medium">
+                  <div class="w-layout-grid layout3_component">
+                    <div class="layout3_content">
+                      <div class="margin-bottom margin-small">
+                        <div class="margin-bottom margin-small"><img src="images/step1-phone.svg" loading="lazy" width="36" height="62" alt="SVG Icon of a Mobile Phone" class="image"></div>
+                        <h3 class="heading-style-h3 text-weight-semibold text-size-1-8rem">Step One:<br>Test Strategy Design</h3>
+                      </div>
+                      <p class="text-size-regular _50ch">In our first meeting, we&#x27;ll study your app and understand your roadmap, development phase, and if there&#x27;s any existing QA process already in place. We&#x27;ll take a look at your app&#x27;s demo and map out our strategy to guarantee you the highest level of coverage in the shortest amount of time.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="padding-section-medium">
+                  <div class="w-layout-grid layout3_component">
+                    <div id="w-node-efbbaec5-e61c-4f3f-214f-bdae86d2f561-3fc701c2" class="layout3_content">
+                      <div class="margin-bottom margin-small">
+                        <div class="margin-bottom margin-small"><img src="images/step-code.svg" loading="lazy" width="71" height="52" alt="A SVG Icon of coding" class="image"></div>
+                        <h2 class="heading-style-h3 text-weight-semibold text-size-1-8rem">Step Two:<br>Test Automation Development</h2>
+                      </div>
+                      <p class="text-size-regular _50ch">After we map out our plan, we can put it into action. We&#x27;ll start coding the tests considering the highest priority scenarios for maximum efficacy. We drastically reduce your overall costs and time to release by creating and maintaining test environments and using adaptive testing frameworks. This makes things easier and faster for you.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="padding-section-medium">
+                  <div class="w-layout-grid layout3_component">
+                    <div class="layout3_content">
+                      <div class="margin-bottom margin-small">
+                        <div class="margin-bottom margin-small"><img src="images/step3-report.svg" loading="lazy" width="45" height="61" alt="A SVG Icon of Office Papers" class="image"></div>
+                        <h2 class="heading-style-h3 text-size-1-8rem text-weight-semibold">Step Three:<br>Build coverage and run tests</h2>
+                      </div>
+                      <p class="text-size-regular _50ch">As we increase coverage, we&#x27;ll help you integrate QA Foundry into your team process. We provide comprehensive and extensive bug reports and run tests 100% in parallel, so you can ship your final product as fast as possible.</p>
+                    </div>
+                  </div>
+                </div><img src="images/Spaceship.svg" loading="lazy" alt="SVG image of a spaceship" class="position-absolute">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_info3">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-medium">
+              <div class="w-layout-grid layout1_component-a">
+                <div id="w-node-_6c12e38f-3148-babc-db93-88e1a6636a52-3fc701c2" class="layout1_image-wrapper"><img src="images/E-A-T.svg" loading="lazy" width="486" height="523" alt="A SVG Icon of a laptop screen showing brainstorming icons" class="image"></div>
+                <div class="layout1_content">
+                  <div class="margin-bottom margin-small">
+                    <h2 class="heading-style-h2 text-size-3-5rem">Effortless<br>Automated Testing</h2>
+                  </div>
+                  <p class="text-size-regular">The thing about testing is that it has to be done carefully, but once you get it right, you can automate it and use it for a long period of time with minimal maintenance. That&#x27;s what we do.<br>‍<br>We cover all the phases of testing, <span class="text-weight-semibold">from ideation and planning, to data and bug reports, to test case maintenance</span>. You&#x27;ll always have a dedicated team working for you and making sure that your app is running smoothly.<br><br>All of this can be done with as little or as much of your involvement as<br>you&#x27;d like. You can fully let us run the testing and maintenance and not worry about the results aside from our bi-weekly meetings. We&#x27;ll handle it<br>for you and you can worry about shipping the absolute best product your team can build.<br><br>All we need is a demo of your product in our first meeting, and we are<br>ready to start.</p>
+                  <div class="margin-top margin-medium">
+                    <div class="button-group">
+                      <a href="#" class="button-rounded-dkblue w-button">Schedule a Demo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_info4">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-small">
+              <div class="w-layout-grid layout3_component-a">
+                <div id="w-node-_2d384856-5f40-462f-04c1-5403ace22397-3fc701c2" class="layout3_content">
+                  <div class="margin-bottom margin-small">
+                    <h2 class="heading-style-h2 text-size-3-5rem">&quot;But Why Wouldn&#x27;t I<br>Just Hire QA Testers<br>In-House?&quot;</h2>
+                  </div>
+                  <p class="text-size-regular">A Software Development Engineer in Test (SDET) can earn $124,000 and upwards plus benefits in today&#x27;s age.<br><br>Due to our working with multiple distinct software products in different industries, we can easily pinpoint the best solutions for your app&#x27;s unique testing needs. This minimizes risk and maximizes value, as you&#x27;ll have a team of experts with a highly diversified range of experiences working for<br>you.<br><br>This is why Automated QA-as-a-service (QaaS) like a QA Foundry is the best choice for you. Aside from being easier, faster and more efficient, you pay us only when you use our service. Whenever you need it, our expertise is available to you.</p>
+                </div>
+                <div id="w-node-_2d384856-5f40-462f-04c1-5403ace2239d-3fc701c2" class="layout3_image-wrapper"><img src="images/question-phone.svg" loading="lazy" width="454" height="430" alt="A SVG Icon of a phone with question marks around it" class="image"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="section_compare margin-bottom margin-xhuge">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-medium">
+              <div class="inhouse-grid">
+                <div class="padding-global background-color-gray2 border-radius-1">
+                  <div class="padding-section-custom2">
+                    <div id="w-node-_5143ad6a-31f8-dbcf-490b-23c74954c152-3fc701c2" class="margin-bottom">
+                      <div class="margin-bottom margin-medium">
+                        <h2 class="heading-style-h2 text-size-1-8rem">In House</h2>
+                      </div>
+                      <div class="margin-bottom margin-medium">
+                        <h3 class="heading-style-h3 text-size-1-3rem text-weight-semibold">Effort from you:</h3>
+                      </div>
+                      <div class="margin-bottom margin-large">
+                        <ul role="list" class="list">
+                          <li class="custom-list-spacing cancel _50ch">Huge amount of time and effort finding talent, recruiting and onboarding</li>
+                          <li class="custom-list-spacing cancel _50ch">Creating an entire test strategy and develop test plans from scratch</li>
+                          <li class="custom-list-spacing cancel">Building prototype and research tools</li>
+                          <li class="custom-list-spacing cancel">Maintaining CI/CD pipeline and integrations</li>
+                          <li class="custom-list-spacing cancel">Investigating test failures &amp; identify flaky tests</li>
+                          <li class="custom-list-spacing cancel">Building analytics and reporting</li>
+                        </ul>
+                      </div>
+                      <div class="margin-bottom margin-medium">
+                        <h3 class="heading-style-h3 text-size-1-3rem text-weight-semibold">Results you get:</h3>
+                      </div>
+                      <ul role="list" class="list">
+                        <li class="custom-list-spacing cancel _50ch">Low test coverage from having to build and maintain an entire framework from zero</li>
+                        <li class="custom-list-spacing cancel _50ch">Minimum of 1 year, but usually more, to reach 40% coverage</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div id="w-node-de5b597b-4d0e-4c3f-c1e7-894d25a20f23-3fc701c2" class="padding-global background-color-ltpurple border-radius-1">
+                  <div class="padding-section-custom2">
+                    <div id="w-node-_7038f753-d1db-074c-5fb5-b06379144f2e-3fc701c2" class="margin-bottom">
+                      <div id="w-node-b98babfa-3efb-d2db-3ce9-478f2133ec95-3fc701c2" class="margin-bottom">
+                        <div class="margin-bottom margin-medium">
+                          <h3 class="heading-style-h2 text-size-1-8rem">QA Foundry 🚀</h3>
+                        </div>
+                        <div class="margin-bottom margin-medium">
+                          <h3 class="heading-style-h3 text-size-1-3rem text-weight-semibold">Effort from you:</h3>
+                        </div>
+                        <div class="margin-bottom margin-large">
+                          <ul role="list" class="list">
+                            <li class="custom-list-spacing confirm">A demo of your app in our first meeting</li>
+                            <li class="custom-list-spacing confirm">Bi-weekly check-ins to look at reports</li>
+                          </ul>
+                        </div>
+                        <div class="margin-bottom margin-medium">
+                          <h3 class="heading-style-h3 text-size-1-3rem text-weight-semibold">Results you get:</h3>
+                        </div>
+                        <ul role="list" class="list">
+                          <li class="custom-list-spacing confirm">End-to-end test coverage, unlimited tests &amp; runs for 6<br>months</li>
+                          <li class="custom-list-spacing confirm _51ch">An expert team of QA Engineers and SDETs that become one with your own dev team, without the downsides</li>
+                          <li class="custom-list-spacing confirm">Multiple automation tests ran in parallel for maximum efficiency</li>
+                          <li class="custom-list-spacing confirm">High quality and extensive reporting, documentation, and<br>training</li>
+                          <li class="custom-list-spacing confirm">Upwards to 99% decrease in test execution time</li>
+                          <li class="custom-list-spacing confirm _50ch">The testing is fully managed by us, and you can either co-manage it together or hand it off entirely to your team</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="section_outro background-color-ltpurple">
+        <div class="padding-global">
+          <div class="container-small">
+            <div class="padding-section-large">
+              <div class="text-align-center">
+                <div class="margin-bottom margin-small">
+                  <h2 class="heading-style-h2 text-size-3-5rem">Can You See The<br>Difference?</h2><img src="images/underline2.svg" loading="lazy" width="319" height="13" alt="A SVG Icon of underline for a smaller header" class="header-underline2">
+                </div>
+                <div class="margin-bottom margin-small">
+                  <p class="text-size-regular">We help some of the fastest-growing tech teams improvide their product quality and delivery</p>
+                </div>
+                <div class="margin-bottom margin-small">
+                  <p class="paragraph text-size-regular">If you want a high-quality end product that can be shipped to your users without pesky bugs and annoyances that you will have to correct in a hurry, you&#x27;ve found your best option.</p>
+                </div>
+                <div class="margin-top margin-medium">
+                  <div class="button-group is-center">
+                    <a href="#" class="button-rounded-dkblue w-button">Schedule a Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="section_faq">
+        <div class="padding-global">
+          <div class="container-small">
+            <div class="padding-section-large">
+              <div class="margin-bottom margin-medium">
+                <div class="text-align-center">
+                  <div class="max-width-large">
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h2 text-size-3-5rem">Any Questions Left?</h2>
+                    </div>
+                    <p class="text-size-2-25rem">We&#x27;ll Answer Them</p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq7_component">
+                <div class="padding-custom1 background-color-ltpurple border-radius">
+                  <div class="faq7_item">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-size-1-3rem text-weight-semibold">How will we communicate?</div>
+                    </div>
+                    <p class="text-size-regular">You can work with us the same way you work with your in-house dev team. We can communicate on Discord, Slack, or any other software you commonly use. If you don&#x27;t have an in-house team or a set communication software yet, we&#x27;ll set up a slack channel ourselves.</p>
+                  </div>
+                </div>
+                <div class="padding-custom1 background-color-ltpurple border-radius">
+                  <div class="faq7_item">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-size-1-3rem text-weight-semibold">How much does it cost?</div>
+                    </div>
+                    <p class="text-size-regular">The pricing of your services will vary depending on the size and complexity of the app you are developing. We assure you that we are very much budget-friendly and we will prepare an Automated Test Suite built with highest quality in mind. The pricing will be explicit and clear, you&#x27;ll never have any surprises.</p>
+                  </div>
+                </div>
+                <div class="padding-custom1 background-color-ltpurple border-radius">
+                  <div class="faq7_item">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-size-1-3rem text-weight-semibold">Do you work with startups?</div>
+                    </div>
+                    <p class="text-size-regular">Absolutely. We actually specialize in mobile, SaaS startups. QA Foundry itself is a mix of traditional software consulting and tech startup. We love working with our counterparts and making sure that other startups benefit from our services.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="margin-top margin-medium">
+                <div class="text-align-center">
+                  <div class="max-width-medium align-center">
+                    <a href="#" class="button-rounded-dkblue w-button">Schedule a Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="padding-global background-color-dkpurple">
+          <div class="container-large">
+            <div class="padding-vertical padding-xxlarge text-color-white">
+              <div class="padding-bottom padding-xxlarge">
+                <div class="w-layout-grid footer4_top-wrapper">
+                  <h2 id="w-node-_216af2ea-93d2-dcd2-a647-f3a9c6b054c7-c6b054c1" class="heading-style-h2 text-size-3-5rem">Contact Us</h2>
+                  <p id="w-node-_216af2ea-93d2-dcd2-a647-f3a9c6b054c9-c6b054c1" class="text-size-medium">We prides ourselves and delivering a specialized service to our clients. Based out of New York City, we understand our local clients and work side by side with them to provide test automation services that exceed expectations.</p>
+                  <div id="w-node-_216af2ea-93d2-dcd2-a647-f3a9c6b054cd-c6b054c1" class="margin-bottom justify-right">
+                    <a id="w-node-_216af2ea-93d2-dcd2-a647-f3a9c6b054ce-c6b054c1" href="#" class="button-rounded-ltpurple w-button">Schedule a Demo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="line-divider"></div>
+              <div class="padding-top padding-medium">
+                <div class="footer6_bottom-wrapper">
+                  <a href="#" class="footer6_logo-link w-nav-brand"><img src="images/Logo-White.svg" loading="lazy" width="215" height="48" alt="QA Foundry Logo in White" class="footer-image"><img src="images/QA-Q.svg" loading="lazy" alt="" class="footer_logo_mini"></a>
+                  <div class="w-layout-grid footer4_bottom-wrapper text-weight-semibold">
+                    <a href="#" class="footer4_legal-link text-color-white">Home</a>
+                    <a href="#" class="footer4_legal-link text-color-white">Services</a>
+                    <a href="#" class="footer4_legal-link text-color-white">Case Study</a>
+                    <a href="#" class="footer4_legal-link text-color-white">Privacy Policy</a>
+                    <a href="#" class="footer4_legal-link text-color-white">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="padding-top padding-medium text-align-center">
+                <div class="footer4_credit-text text-weight-light text-size-tiny">Copyright 2022 QA Foundry LLC</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6363ff8d6192212b7ac701c1" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
