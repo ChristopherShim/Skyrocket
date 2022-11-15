@@ -203,8 +203,8 @@ ol {
 }
 
 li {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   padding-left: 0.5rem;
 }
 
@@ -2762,6 +2762,10 @@ figcaption {
   color: #000;
 }
 
+.navbar2_link.hidden {
+  display: none;
+}
+
 .layout1_component {
   display: -ms-grid;
   display: grid;
@@ -3028,6 +3032,10 @@ figcaption {
   text-decoration: none;
 }
 
+.footer4_legal-link.text-color-white.hidden {
+  display: none;
+}
+
 .footer4_top-wrapper {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -3279,16 +3287,6 @@ figcaption {
   font-size: 2rem;
 }
 
-.list-item-custom {
-  list-style-type: none;
-}
-
-.list-item-custom-2 {
-  margin-left: -20px;
-  padding-left: 0rem;
-  list-style-type: none;
-}
-
 .text-size-2-8rem {
   font-size: 2.8rem;
 }
@@ -3299,6 +3297,74 @@ figcaption {
 
 .navbar_logo_mini {
   display: none;
+}
+
+.privacy_policy_container {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.policy1 {
+  display: block;
+}
+
+.policy2 {
+  display: block;
+}
+
+.policy3 {
+  display: block;
+}
+
+.policy4 {
+  display: block;
+}
+
+.policy5 {
+  display: block;
+}
+
+.policy6 {
+  display: block;
+}
+
+.policy7 {
+  display: block;
+}
+
+.policy8 {
+  display: block;
+}
+
+.policy9 {
+  display: block;
+}
+
+.policy10 {
+  display: block;
+}
+
+.policy11 {
+  display: block;
+}
+
+.policy12 {
+  display: block;
+}
+
+.policy13 {
+  display: block;
+}
+
+.policy14 {
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
@@ -4112,6 +4178,10 @@ figcaption {
   .footer_logo_mini {
     display: block;
   }
+
+  .privacy_policy_container {
+    grid-row-gap: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4437,8 +4507,8 @@ figcaption {
 }
 
 #w-node-_87f666a7-aacc-9434-c0e5-0f4298d701a5-98d701a1 {
-  -ms-grid-column-align: stretch;
-  justify-self: stretch;
+  -ms-grid-column-align: end;
+  justify-self: end;
 }
 
 #w-node-_87f666a7-aacc-9434-c0e5-0f4298d701b0-98d701a1 {
